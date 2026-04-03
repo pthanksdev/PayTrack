@@ -25,7 +25,8 @@ import {
   ArrowRight,
   Code2,
   Cpu,
-  ArrowLeft
+  ArrowLeft,
+  Link
 } from 'lucide-react';
 
 // --- Types & Constants ---
@@ -1088,7 +1089,9 @@ export default function App() {
         </div>
         <div style={{ display: 'flex', gap: '24px' }}>
           <span onClick={() => setPage('docs')} style={{ cursor: 'pointer', color: THEME.textMuted }}>Docs</span>
-          <span style={{ cursor: 'pointer', color: THEME.textMuted }}>GitHub</span>
+          <Link href="https://github.com/pthanksdev/PayTrack.git" target="_blank" rel="noopener noreferrer">
+            <span style={{ cursor: 'pointer', color: THEME.textMuted }}>GitHub</span>
+          </Link>
           <span style={{ cursor: 'pointer', color: THEME.textMuted }}>Status</span>
         </div>
       </footer>
