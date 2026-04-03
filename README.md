@@ -112,6 +112,3 @@ Run tests with `npm test`
 ## License
 
 ISC# PayTrack
-# PayTrack
-# PayTrack
-# PayTrack
